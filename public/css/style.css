@@ -1,0 +1,35 @@
+.search .fa-search {
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+    right: 14px;
+    color: #A5A4A4;
+}
+.search{
+    position: absolute;
+    margin-top: 10px;
+}
+.search input{
+    width: 300px !important;
+}
+li{list-style: none;}
+
+.red{color: red; }
+.box-comment .comment-text{position: relative;}
+.edit-delete-comment{position: absolute;  top: -3px; right: 110px; display: none; }
+.edit-delete-comment li{cursor: pointer;}
+.box-comment .comment-text:hover .edit-delete-comment{display: block;}
+a{cursor: pointer; }
+
+.del_status{
+    top: 10px;
+    position: absolute;
+    right: 15px;}
+.sub_delete_status{ display: none;   position: absolute;  right: 0px;}
+.box.box-widget .box-body img{
+    object-position: 50% 50%;
+    object-fit: cover;}
+
+.box.box-widget.wrap_detail .box-body img{
+height: 100% !important;
+}
